@@ -1,0 +1,45 @@
+#allText{
+	text-align: center;
+	padding: 15px;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url("images/nods.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%
+}
+
+h1{
+	color: greenyellow;
+}
+
+li{
+	color: greenyellow;
+}
+
+.navBar{
+	text-align: center
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:hover{
+	color: lightgreen;
+}
+
+.profile{
+	image
+}
+
+.link{
+	padding: 20px;
+}
