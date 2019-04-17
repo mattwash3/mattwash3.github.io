@@ -1,26 +1,153 @@
-.link{
-}
-
 #allText{
 	text-align: center;
 	padding: 15px;
 	font-family: sans-serif;
 }
 
-background-image: url("");
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center;
-   background-size: 100%;
+body{
+	background-image: url("images/airborne.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+}
 
 a:link{
-	color: blue;
+	color: white;
 }
 
 a:visited{
-	color: purple;
+	color: aqua;
 }
 
 a:hover{
-	color: green;
+	color: red;
+}
+
+.link{
+	padding: 20px;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+h1{
+	color: white;
+	background-color: maroon;
+	padding: 20px;
+}
+
+h2,h3,h4{
+	color: greenyellow
+}
+
+.btn-group-justified{
+	color: blue;
+}
+
+.col-sm-2{
+	text-align: center;
+}
+
+.col-sm-3{
+	text-align: center;
+}
+
+.col-sm-6{
+	text-align: center;
+}
+
+.col-sm-8{
+	text-align: center;
+}
+
+.col-md-2{
+	text-align: center;
+}
+
+.col-md-3{
+	text-align: center;
+}
+
+.col-md-6{
+	text-align: center;
+}
+
+.col-md-8{
+	text-align: center;
+}
+
+.col-lg-2{
+	text-align: center;
+}
+
+.col-lg-3{
+	text-align: center;
+}
+
+.col-lg-6{
+	text-align: center;
+}
+
+.col-lg-8{
+	text-align: center;
+}
+
+#mySidenav a {
+	position: absolute;
+	left: -80px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+	left: 0;
+}
+
+.previous {
+	background-color: grey;
+	color: black;
+}
+
+.next {
+	background-color: grey;
+	color: white;
+}
+
+li{
+	color: greenyellow;
+}
+
+p{
+	color: greenyellow;
+}
+
+.link{
+	padding: 20px;
+ }
+
+ .round {
+	border-radius: 50%;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:hover{
+	color: lightgreen;
 }

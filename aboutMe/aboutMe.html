@@ -6,27 +6,92 @@
 		<meta name="description" content="a few sentences describing the website">
 		<meta name="keywords" content="demo, demo">
 		<meta name="author" content="Matthew Washington">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 		<body>
 			<div id="allText">
-			<h1>About Matt Washington</h1>
-			<br>
+				<h1>About Matt Washington</h1>
+				<br>
 				<img src="images/Mexico.jpg" alt="Matt Washington" width="250px">
 			<br><br><br>
-			<li>Former Technical Engineer Paratrooper in the US Army</li><br>
-			<li>I run a part time hobby business called Samurai Sewing making custom military gear and 3d printing figures and parts.</li><br>
-			<li>I'm a creator, an artist and craftsman who loves learning new skills and expanding on current skills.</li><br>
-			<li>Most of my skills are self taught as I enjoy challenging myself to learn new things.</li><br>
-			<br>
-			<li></li>
-			<fieldset>
-				<a href="../index.html" class="link">Home</a>
-				<a href="../projects/projects.html" class="link">Projects</a>
-				<a href="../contact/contact.html" class="link">Contact</a>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3"></div>
+						<div class="col-lg-6" class="textcenter">
+							<p>I'm a former Technical Engineer Paratrooper in the US Army. I run a part time hobby business called Samurai Sewing making custom military gear and 3d printing figures and parts.
+							I'm a creator, an artist and a craftsman who loves learning new skills and expanding on current skills. I'm mostly self taught and enjoy doing research on new things in my free time.
+							One thing I find very exciting about technology and crafting is the near limitless possibilites that are usually only limited by your creativity! Every new day brings a new opportunity
+							to be able to learn something new or imrove yourself!</p>
+						</div>
+						<div class="col-lg-3"></div>
+					</div>
+				</div>			
+				<br>
+				<div class="container">
+					<div id="demo" class="carousel slide" data-ride="carousel">
+						<ul class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+						</ul>
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<img class="d-block w-100" src="images/samsew-logo.jpg" alt="Samurai Sewing">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="images/shirt.jpg" alt="Combat Shirt">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="images/vest.jpg" alt="Plate Carrier">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="images/pouches.jpg" alt="Pouches">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="images/chestrig.jpg" alt="Chest Rig">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="images/owls.jpg" alt="Owl Pair">
+						  </div>
+						  <div class="carousel-item">
+							<img class="d-block w-100" src="images/elephant.jpg" alt="Elephant">
+						  </div>
+						</div>
+						<a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="carousel-control">Previous</span>
+							  </a>
+							  <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							  </a>
+							<div class="carousel-item">
+									<img src="..." alt="...">
+									<div class="carousel-caption d-none d-md-block">
+									  <h5>...</h5>
+									  <p>...</p>
+									</div>
+							</div>
+							<br><br><br>
+				<fieldset>
+						<div class="hover" class="container">
+								<div class="btn-group btn-group-justified">
+								<a href="../index.html" class="btn btn-primary">Home</a>
+								<a href="../projects/projects.html" class="btn btn-primary">Projects</a>
+								<a href="../contact/contact.html" class="btn btn-primary">Contact</a>
+								</div>
+							</div>
 				</fieldset>
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br>
 			</div>
-		</body>
-	</html>
+	</body>
+</html>

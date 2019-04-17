@@ -26,12 +26,149 @@ body{
 
 h1{
 	color: aqua;
+	text-align: center;
 }
 
 h2,h3,h4,h5,h6{
 	color: aqua;
+	text-align: center;
 }
 
 .link{
 	padding: 20px;
+}
+
+.navBar{
+	text-align: center;
+}
+
+#mySidenav a {
+	position: absolute;
+	left: -80px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+	left: 0;
+}
+
+#project1 {
+	top: 20px;
+	background-color: grey;
+}
+
+#project2 {
+	top: 80px;
+	background-color: grey;
+}
+
+#project3 {
+	top: 140px;
+	background-color: grey;
+}
+
+#project4 {
+	top: 200px;
+	background-color: grey;
+}
+
+a:link, a:visited {
+	background-color: navy;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+  
+a:hover, a:active {
+	background-color: yellow;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+a{
+	text-align: center;
+}
+
+.col-sm-2{
+	text-align: center;
+}
+
+.col-sm-3{
+	text-align: center;
+}
+
+.col-sm-6{
+	text-align: center;
+}
+
+.col-sm-8{
+	text-align: center;
+}
+
+.col-md-2{
+	text-align: center;
+}
+
+.col-md-3{
+	text-align: center;
+}
+
+.col-md-6{
+	text-align: center;
+}
+
+.col-md-8{
+	text-align: center;
+}
+
+.col-lg-2{
+	text-align: center;
+}
+
+.col-lg-3{
+	text-align: center;
+}
+
+.col-lg-6{
+	text-align: center;
+}
+
+.col-lg-8{
+	text-align: center;
+}
+
+.previous {
+	background-color: grey;
+	color: black;
+}
+
+.next {
+	background-color: grey;
+	color: white;
+}
+
+.round {
+	border-radius: 50%;
+}
+
+li{
+	color: aqua;
+}
+
+.profile{
+	image-orientation: 0grad;
+}
+
+p{
+	color: aqua;
 }
